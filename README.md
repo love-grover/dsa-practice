@@ -20,6 +20,7 @@ PHP
 
 ### Strings
 - Reverse String (Manual logic implementation using loop)
+- Valid Parentheses
 
 ### Arrays
 - Contains Duplicate (Hash Map approach)
