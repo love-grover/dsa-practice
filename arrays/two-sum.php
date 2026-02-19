@@ -1,0 +1,21 @@
+<?php
+
+class Solution {
+    /**
+     * @param Integer[] $nums
+     * @param Integer $target
+     * @return Integer[]
+     */
+    function twoSum($nums, $target) {
+        $seen = [];
+        for($i=0;$i<count($nums);$i++){
+            $remaining = $target - $nums[$i];
+            if(isset($seen[$remaining])){
+                return [$i,$seen[$remaining]];
+            }
+            $temp = $nums[$i];
+            $seen[$temp] = $i;
+        }
+        return [];
+    }
+}
