@@ -13,6 +13,7 @@ PHP
 - Strings
 - Arrays
 - Hash Maps
+- Linked List
 
 ---
 
@@ -21,9 +22,15 @@ PHP
 ### Strings
 - Reverse String (Manual logic implementation using loop)
 - Valid Parentheses
+- Palindrome Number
+- Roman to Integer
+- Longest Common Prefix
 
 ### Arrays
 - Contains Duplicate (Hash Map approach)
+
+### Linked List
+- Merge Two Sorted Lists
 
 ---
 
