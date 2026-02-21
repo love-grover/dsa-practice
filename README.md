@@ -29,6 +29,7 @@ PHP
 ### Arrays
 - Contains Duplicate (Hash Map approach)
 - Remove Duplicates from Sorted Array
+- Remove Element
 
 ### Linked List
 - Merge Two Sorted Lists
